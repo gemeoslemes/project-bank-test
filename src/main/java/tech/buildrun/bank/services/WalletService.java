@@ -1,7 +1,6 @@
 package tech.buildrun.bank.services;
 
 import org.slf4j.LoggerFactory;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import tech.buildrun.bank.dto.CreateWalletDto;
 import tech.buildrun.bank.entity.Wallet;
@@ -9,7 +8,6 @@ import tech.buildrun.bank.exceptions.WalletDataAlreadyExistsException;
 import tech.buildrun.bank.repository.WalletRepository;
 
 import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 @Service
 public class WalletService {
